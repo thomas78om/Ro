@@ -4,7 +4,24 @@
     <bookmark url="das://6ed03f5c-c00d-4226-873f-b425380b094a/schema/PM01/table/REF_ACTE_GESTION" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f094a579-eef1-44d5-9c5d-b6a16e063b69" name="Default Changelist" comment="" />
+    <list default="true" id="f094a579-eef1-44d5-9c5d-b6a16e063b69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-acte-gestion/creation-acte-gestion.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-acte-gestion/creation-acte-gestion.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-acte-gestion/creation-acte-gestion.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-acte-gestion/creation-acte-gestion.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-activite/creation-activite.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-activite/creation-activite.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-activite/creation-activite.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation-activite/creation-activite.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation/creation.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation/creation.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation/creation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation/creation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/nav/nav.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/app/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppliWeb/client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppliWeb/client/src/styles.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
+            <state relative-caret-position="384">
               <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -101,26 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/homeA/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -139,7 +141,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="essai" />
       </map>
     </option>
   </component>
@@ -181,6 +183,7 @@
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.ts" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.html" />
+        <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.html" />
@@ -196,7 +199,6 @@
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.html" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/homeA/home.component.html" />
-        <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html" />
       </list>
     </option>
   </component>
@@ -253,16 +255,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bt-Archivage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bt-Archivage" type="462c0819:PsiDirectoryNode" />
-              <item name="AppliWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="consultation-h" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bt-Archivage" type="b2602c69:ProjectViewProjectNode" />
@@ -427,7 +419,7 @@
       <workItem from="1565593347556" duration="5654000" />
       <workItem from="1565599068676" duration="41000" />
       <workItem from="1565599187777" duration="591000" />
-      <workItem from="1565599828969" duration="154470000" />
+      <workItem from="1565599828969" duration="154056000" />
     </task>
     <task id="LOCAL-00001" summary="1er changement">
       <created>1566893863325</created>
@@ -436,32 +428,11 @@
       <option name="project" value="LOCAL" />
       <updated>1566893863325</updated>
     </task>
-    <task id="LOCAL-00002" summary="Mise au propre">
-      <created>1566907277724</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1566907277724</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Mise au propre">
-      <created>1566907369178</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1566907369178</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ESSAIE BRANCHE 2">
-      <created>1566907846462</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1566907846462</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192264000" />
+    <option name="totallyTimeSpent" value="190345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,9 +510,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1er changement" />
-    <MESSAGE value="Mise au propre" />
-    <MESSAGE value="ESSAIE BRANCHE 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ESSAIE BRANCHE 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1er changement" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AppliWeb/client/node_modules/bootstrap/scss/_modal.scss">
@@ -713,6 +682,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AppliWeb/client/node_modules/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -739,12 +721,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/modal/creation/creation.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="248">
+          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
           <folding>
             <element signature="e#0#84#0" expanded="true" />
             <element signature="e#320#389#0" expanded="true" />
-            <element signature="n#!!block;n#remplie#0;n#CreationComponent#0" />
             <element signature="n#!!block;n#ngOnDestroy#0;n#CreationComponent#0" />
           </folding>
         </state>
@@ -872,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
+        <state relative-caret-position="384">
           <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -889,21 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/homeA/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
