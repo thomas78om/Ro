@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PMA1D1@db2zadevt2" uuid="6ed03f5c-c00d-4226-873f-b425380b094a">
+      <database-info product="DB2/AIX64" version="SQL10058" jdbc-version="4.1" driver-name="IBM Data Server Driver for JDBC and SQLJ" driver-version="4.23.42" dbms="DB2" exact-version="10.5.8" exact-driver-version="4.23">
+        <extra-name-characters>@#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>pmdevt</user-name>
+      <introspection-schemas>*:*</introspection-schemas>
+    </data-source>
+  </component>
+</project>

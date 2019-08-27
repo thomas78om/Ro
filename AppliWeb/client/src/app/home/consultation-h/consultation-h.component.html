@@ -1,0 +1,24 @@
+<button class="btn btn-outline" (click)="openModalConsulter()" style="margin: 10px; background:#0077c3;color:white ">Consulter</button>
+
+
+<div style="margin-left: 10px ">
+  <button type="button" class="btn btn-outline" style="background:  #005ea8;width: 100%" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+    <a style="color:white ; float: left">
+      <div *ngIf=isCollapsed><img src="../../../assets/img/icons8-plus-30.png" height="15" width="15"/> Résultat</div>
+      <div *ngIf=!isCollapsed><img src="../../../assets/img/icons8-moins-30 (1).png" height="15" width="15"/> Résultat</div>
+    </a>
+  </button>
+</div>
+
+
+<div id="collapseExample"  [ngbCollapse]="!isCollapsed">
+  <div class="card" style="margin-left: 10px">
+    <div class="card-body">
+      <h4 style="font-weight:  bold;">Resulat</h4>
+
+
+    </div>
+  </div>
+</div>
+

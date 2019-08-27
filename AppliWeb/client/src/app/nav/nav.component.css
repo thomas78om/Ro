@@ -1,0 +1,84 @@
+.navbar-inverse  {
+  background-color: #005ea8;
+  border-color: #004175;
+
+  height: 55px;
+}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  height: 55px;
+}
+.navbar {
+  position: relative;
+  min-height: 1px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  height: 55px;
+}
+
+.navbar-brand{
+  background-color: #005ea8;
+  margin-top: -12px;
+  margin-bottom: -12px;
+  margin-left: -15px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.navbar-right{
+  background: #01afec;
+  padding-right: 25px;
+  padding-left: 25px;
+  float: right!important;
+  margin-right: -15px;
+  margin-top: -8px;
+  margin-bottom: 2px;
+
+}
+
+.navbar-left{
+  background: #01afec;
+  padding-right: 25px;
+  padding-left: 25px;
+  float: left!important;
+  margin-left: 150px;
+  margin-top: -8px;
+  margin-bottom: 2px;
+}
+.navbar-text {
+  color : white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+
+.navbar-right:before {
+  content: '';
+  display: block;
+  position: relative;
+  left: -50px;
+  top : -10px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  top: 0;
+  width:50px;
+
+  border: 26px solid transparent;
+  background: #005ea8;
+  float: left;
+  transform: skew(-26deg);
+}
+
+img {
+  vertical-align: top;
+  border-style: none;
+}
+
+.nav {
+
+  position: absolute;
+  left: 155px;
+  color : white;
+
+}
+

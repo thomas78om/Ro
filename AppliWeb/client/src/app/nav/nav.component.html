@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-brand" href="#"style="background:#fff">
+    <a routerLink="">
+      <img src="../../assets/img/logosma_accueil.png" height="43px"  />
+    </a>
+  </div>
+  <li class="nav">
+    <a routerLink="home">
+      <p class="navbar-text">Accueil</p>
+    </a>
+    <div ngbDropdown class="d-inline-block">
+      <button class="btn btn-outline" id="dropdownBasic2" style="background:#005ea8; margin-top: 11px;color: white ; margin-left: 2px" ngbDropdownToggle>Index</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+        <button class="dropdown-item"  routerLink="index/creation" >Créer</button>
+        <button class="dropdown-item" routerLink="index/consultation" (click)="openModalConsulter()">Consulter</button>
+      </div>
+    </div>
+  </li>
+  <div class="navbar-right">
+    <p class="navbar-text" style=" " > Connecté en tant que :  |
+      <a  routerLink="" style="color : white">
+        Déco
+      </a>
+    </p>
+  </div>
+</nav>
+</body>
+
