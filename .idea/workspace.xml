@@ -101,11 +101,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/homeA/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +181,6 @@
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.ts" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/footer/footer.component.html" />
-        <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/modal/consulter/consulter.component.html" />
@@ -182,6 +196,7 @@
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.css" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/creation-h/creation-h.component.html" />
         <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/homeA/home.component.html" />
+        <option value="$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html" />
       </list>
     </option>
   </component>
@@ -238,6 +253,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bt-Archivage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bt-Archivage" type="462c0819:PsiDirectoryNode" />
+              <item name="AppliWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="consultation-h" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bt-Archivage" type="b2602c69:ProjectViewProjectNode" />
@@ -425,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566907369178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ESSAIE BRANCHE 2">
+      <created>1566907846462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566907846462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190740000" />
+    <option name="totallyTimeSpent" value="192264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,7 +476,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,7 +492,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3445287" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3445287" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.312026" />
@@ -508,7 +540,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1er changement" />
     <MESSAGE value="Mise au propre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise au propre" />
+    <MESSAGE value="ESSAIE BRANCHE 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ESSAIE BRANCHE 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AppliWeb/client/node_modules/bootstrap/scss/_modal.scss">
@@ -677,19 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,8 +889,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/homeA/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppliWeb/client/src/app/home/consultation-h/consultation-h.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
