@@ -1,6 +1,4 @@
 .footer {
-
-
   height:49px;   /* Hauteur du pied de page */
   padding: 0;
   background-color: #ddd;
@@ -52,4 +50,7 @@
   background: #005ea8;
   float: right;
   transform: skew(-26deg);
+}
+.footer flexbox-container{
+  float: bottom; margin-top: 15px
 }

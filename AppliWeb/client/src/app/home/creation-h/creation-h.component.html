@@ -6,24 +6,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<div style="margin-left: 10px;width: 60% ">
+<div class="refcollapse" >
   <button type="button" class="btn btn-outline" style="background:  #005ea8;width: 100%" (click)="isCollapsed = !isCollapsed"
           [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
-    <a style="color:white ; float: left">
-      <div *ngIf=!isCollapsed><fa-icon [icon]="faPlusCircle"style="color : #e40302"></fa-icon>  Réf</div>
-      <div *ngIf=isCollapsed><fa-icon [icon]="faMinusCircle"style="color : #e40302"></fa-icon> Réf</div>
+    <a class ="tittleREF">
+      <div class ="tittleREF"*ngIf=!isCollapsed><fa-icon class="icons" [icon]="faPlusCircle"></fa-icon>  Réf</div>
+      <div class ="tittleREF" *ngIf=isCollapsed><fa-icon class="icons" [icon]="faMinusCircle"></fa-icon> Réf</div>
     </a>
-
   </button>
 </div>
-<div id="collapseExample"  [ngbCollapse]="!isCollapsed" style="margin-left:1%;width: 58%">
-  <div class="card" style="margin-left: 10px;">
+<div id="collapseExample"  class="collapse"[ngbCollapse]="!isCollapsed">
+  <div class="card" >
     <div class="card-body" >
-      <h4 style="font-weight:  bold;">Selection Triplet</h4>
+      <h4 class="titreCard">Selection Triplet</h4>
           <hr>
-
-
-      <div class="select" style="margin-bottom: 10px">
+      <div class="select" >
         <select #ref name="slct" id="slct">
           <option value=""hidden>Secteur Activité</option>
           <option>Epargne</option>
@@ -35,8 +32,7 @@
         <div class="add-icon"></div>
         <div class="btn-txt">Ajouter</div>
       </button>
-
-      <div class="select" style="margin-bottom: 10px">
+      <div class="select" >
         <select #ref2 name="slct" id="slct2">
           <option value=""hidden>Activité</option>
           <option>Epargne</option>
@@ -48,8 +44,6 @@
         <div class="add-icon"></div>
         <div class="btn-txt">Ajouter</div>
       </button>
-
-
       <div class="select">
         <select #ref3 name="slct" id="slct3">
           <option value=""hidden>Acte gestion</option>
@@ -68,38 +62,27 @@
         <div class="btn-txt">Ajouter</div>
       </button>
       <br>
-
       <div *ngIf=remplie(ref,ref2,ref3)> <button type="button" class="btn btn-outline-success" (click)="addRefSectAct(ref)"  (click)="addRefA(ref2)" (click)="addRefAG(ref3)" (click)="annuler(ref,ref2,ref3)"
                                                   style="  float: right">Envoie</button></div>
       <div *ngIf=!remplie(ref,ref2,ref3)> <button type="button" class="btn btn-outline-danger"
-                                                  style=" ; float: right" popoverTitle="Attention" ngbPopover="Remplir les 3 onglets" triggers="mouseenter:mouseleave" >Envoie</button></div>
-
-
+                                                style=" ; float: right" popoverTitle="Attention" ngbPopover="Remplir les 3 onglets" triggers="mouseenter:mouseleave" >Envoie</button></div>
       <button type="button" class="btn btn-outline-secondary" (click)="annuler(ref,ref2,ref3)" style=" float: left"  >Annuler</button>
-
-
-
-
-
     </div>
   </div>
 </div>
-
-
-
-<div style="margin-left: 10px;margin-top: 2px ;width: 60%">
+<div class="collapseTest">
   <button type="button" class="btn btn-outline" style="background:  #005ea8;width: 100%" (click)="isCollapsed2 = !isCollapsed2"
           [attr.aria-expanded]="!isCollapsed2" aria-controls="collapseExample">
-    <a style="color:white ; float: left">
-      <div *ngIf=isCollapsed2><img src="../../../assets/img/icons8-plus-30.png" height="15" width="15"/> TEST</div>
-      <div *ngIf=!isCollapsed2><img src="../../../assets/img/icons8-moins-30 (1).png" height="15" width="15"/> TEST</div>
+    <a class ="tittleREF" >
+      <div class ="tittleREF"*ngIf=isCollapsed2><img src="../../../assets/img/icons8-plus-30.png" height="15" width="15"/> TEST</div>
+      <div class ="tittleREF" *ngIf=!isCollapsed2><img src="../../../assets/img/icons8-moins-30 (1).png" height="15" width="15"/> TEST</div>
     </a>
   </button>
 </div>
-<div id="collapseExample2"  [ngbCollapse]="isCollapsed2"style="width: 60%">
-  <div class="card" style="margin-left: 10px">
+<div id="collapseExample2"  [ngbCollapse]="isCollapsed2"class="collapse">
+  <div class="card" >
     <div class="card-body">
-      <div class="card" style="margin-left: 10px">
+      <div class="card" >
         <div class="card-body" >
             {{ref.value}},{{ref2.value}},{{ref3.value}}
           <div class="charge">
@@ -119,5 +102,4 @@
     </div>
   </div>
 </div>
-
 </body>

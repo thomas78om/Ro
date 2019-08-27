@@ -1,3 +1,38 @@
+.modal-header{
+  background:  #005ea8;
+}
+.modal-title{
+  color:white
+}
+
+.croix{
+  color : white;
+}
+
+.card {
+  margin-left: 10px;box-shadow: 10px 10px 0px rgba(119,119,119,0.25);
+}
+
+.commentaire{
+  margin-top: 5px; position: absolute;top: 100px ;right: 50px
+}
+.commentaireArea{
+  border-radius: 4px;width:340px;height: 200px;max-height: 300px
+}
+.button{
+  float: right;margin-top: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
 .group 			  {
   position:relative;
   margin-bottom:45px;

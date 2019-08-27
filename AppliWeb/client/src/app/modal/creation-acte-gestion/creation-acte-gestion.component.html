@@ -1,51 +1,47 @@
-<div class="modal-header "  style="background:  #005ea8">
-  <h6 class="modal-title" style="color:white" [innerText]="title"></h6>
+<div class="modal-header "  >
+  <h6 class="modal-title"  [innerText]="title"></h6>
   <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
-    <span aria-hidden="true" style="color : white">&times;</span>
+    <span aria-hidden="true" class ="croix">&times;</span>
   </button>
 </div>
 <div class="modal-body">
   <div [innerHtml]="body"></div>
-  <div class="card" style="margin-left: 10px;box-shadow: 10px 10px 0px rgba(119,119,119,0.25);">
+  <div class="card">
     <div class="card-body" >
-
-
-
             <h3>Ajouter un acte de gestion</h3>
       <hr>
-
       <div class="group">
         <input type="text" #ref2 required>
         <span class="highlight"></span>
         <span class="bar"></span>
-        <label>Code <span style="color: red;float: left">*</span> </label>
+        <label>Code <span class="-asterisk">*</span> </label>
       </div>
 
       <div class="group">
         <input type="text" #ref maxlength="30" required>
         <span class="highlight"></span>
         <span class="bar"></span>
-        <label>Libelle court <span style="color: red;float: left">*</span> </label>
+        <label>Libelle court <span class="-asterisk">*</span> </label>
       </div>
 
       <div class="group">
         <input type="text" #ref3 maxlength="100" required>
         <span class="highlight"></span>
         <span class="bar"></span>
-        <label>Libelle long <span style="color: red;float: left">*</span> </label>
+        <label>Libelle long <span class="-asterisk">*</span> </label>
       </div>
 
-      <span style="color: red;float: left">*</span> <small>Champs obligatoires</small> <br><br><br>
+      <span class="-asterisk">*</span> <small>Champs obligatoires</small> <br><br><br>
 
 
-      <div style="margin-top: 5px; position: absolute;top: 100px ;right: 50px">
+      <div class = "commentaire">
         Votre commentaire : <br>
-        <textarea type="textarea" placeholder="Ajouter un commentaire" style=" border-radius: 4px;width:340px;height: 200px;max-height: 300px"maxlength="500" #ref4></textarea> </div>
+        <textarea type="textarea" placeholder="Ajouter un commentaire" class="commentaireArea"maxlength="500" #ref4></textarea> </div>
 
 
 
-      <div *ngIf=!remplie(ref,ref2,ref3)> <button type="submit" class="btn btn-outline-danger btn-lg" disabled   style="float: right;margin-top: 20px">Valider</button></div>
-      <div *ngIf=remplie(ref,ref2,ref3)> <button type="submit" class="btn btn-outline-success btn-lg" (click)="addRef(ref,ref2,ref3,ref4)"  (click)="activeModal.dismiss(null)" style="float: right;margin-top: 20px">Valider</button></div>
+      <div class="button" *ngIf=!remplie(ref,ref2,ref3)> <button type="submit" class="btn btn-outline-danger btn-lg " disabled   >Valider</button></div>
+      <div class="button" *ngIf=remplie(ref,ref2,ref3)> <button type="submit" class="btn btn-outline-success btn-lg" (click)="addRef(ref,ref2,ref3,ref4)"  (click)="activeModal.dismiss(null)" >Valider</button></div>
       <button type="button" class="btn btn-outline-secondary btn-lg" (click)="annuler(ref,ref2,ref3,ref4)" style="margin: 20px; float: right"  >Annuler</button>
     </div>
   </div>

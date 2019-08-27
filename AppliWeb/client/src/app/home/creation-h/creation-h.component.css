@@ -1,3 +1,49 @@
+.refcollapse{
+  margin-left: 10px;
+  width: 60%;
+  background:  #005ea8;
+
+}
+.tittleREF{
+  color:white ;
+  float: left
+}
+.icons {
+  color : #e40302
+}
+
+.collapse{
+  margin-left:1%;width: 58%
+}
+.card {
+  margin-left: 10px;
+}
+.titreCard{
+  font-weight:  bold;
+}
+.select{
+  margin-bottom: 10px
+}
+.collapseTest{
+  margin-left: 10px;margin-top: 2px ;width: 60%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .preloader-1 {
 
   width: 100px;
@@ -119,7 +165,7 @@
   height: 20px;
   width: 2px;
   top: calc(50% - 10px);
-  background: #88a3ff;
+  background: red;
   overflow: hidden;
 }
 .add-icon::before {
