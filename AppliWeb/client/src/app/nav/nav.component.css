@@ -1,3 +1,8 @@
+.texte{
+  color: white;
+}
+
+
 .navbar-inverse  {
   background-color: #005ea8;
   border-color: #004175;
@@ -24,6 +29,7 @@
   margin-left: -15px;
   padding-right: 25px;
   padding-left: 25px;
+  background:#fff
 }
 .navbar-right{
   background: #01afec;
