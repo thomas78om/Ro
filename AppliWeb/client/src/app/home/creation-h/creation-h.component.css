@@ -119,7 +119,7 @@
   height: 20px;
   width: 2px;
   top: calc(50% - 10px);
-  background: red;
+  background: #88a3ff;
   overflow: hidden;
 }
 .add-icon::before {
